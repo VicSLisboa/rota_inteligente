@@ -1,1 +1,16 @@
+Rota A*: A -> D -> E -> F -> I
+Distância A*: 10 km
+Rota BFS: A -> B -> C -> F -> I
+Distância BFS: 12 km
+Economia do A*: 2 km
 
+Agrupamento K-Means:
+P01 (Centro) -> grupo 1
+P02 (Centro Norte) -> grupo 1
+P03 (Centro Leste) -> grupo 1
+P04 (Centro Sul) -> grupo 1
+P05 (Centro) -> grupo 1
+P06 (Centro Leste) -> grupo 2
+P07 (Periferia Sul) -> grupo 1
+P08 (Periferia) -> grupo 2
+P09 (Periferia Leste) -> grupo 2
