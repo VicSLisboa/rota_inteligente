@@ -2,7 +2,7 @@
 
 Projeto acadêmico desenvolvido para a disciplina **Artificial Intelligence Fundamentals**, do curso de **Gestão de Tecnologia da Informação**, com foco na aplicação de algoritmos de Inteligência Artificial na área de logística e entregas.
 
-O projeto apresenta uma solução simplificada para a empresa fictícia **Sabor Express**, que precisa encontrar rotas de entrega e organizar pedidos próximos para melhorar o planejamento das entregas.
+O projeto apresenta uma solução simplificada para a empresa fictícia **Sabor da Vic**, que precisa encontrar rotas de entrega e organizar pedidos próximos para melhorar o planejamento das entregas.
 
 ## 1. Introdução
 
@@ -20,7 +20,7 @@ Neste projeto, a cidade foi representada por um grafo ponderado. O algoritmo A* 
 
 ## 2. Descrição do problema
 
-A empresa fictícia Sabor Express realiza entregas em diferentes pontos de uma cidade.
+A empresa fictícia Sabor da Vic realiza entregas em diferentes pontos de uma cidade.
 
 Para este projeto, considera-se que a empresa possui:
 
