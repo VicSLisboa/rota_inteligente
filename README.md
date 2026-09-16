@@ -125,3 +125,38 @@ O algoritmo utiliza a fórmula:
 
 ```text
 f(n) = g(n) + h(n)
+```
+
+### 6.2 Algoritmo BFS
+
+O BFS, ou Busca em Largura, é um algoritmo que explora os vértices de um grafo por níveis.
+
+Ele começa no ponto de origem e visita primeiro os locais mais próximos em quantidade de conexões. Depois, continua explorando os próximos níveis até encontrar o destino.
+
+Neste projeto, o BFS foi utilizado para comparar os resultados com o algoritmo A*.
+
+Uma limitação do BFS é que ele não considera diretamente o peso das arestas. Por isso, ele pode encontrar um caminho com menos conexões, mas que tenha uma distância total maior.
+
+### 6.3 Algoritmo K-Means
+
+O K-Means é um algoritmo de agrupamento utilizado para separar dados em grupos com características semelhantes.
+
+Neste projeto, ele foi aplicado às coordenadas dos pedidos da Sabor Express. O objetivo é identificar pedidos que estejam próximos uns dos outros e agrupá-los em regiões.
+
+O algoritmo funciona por meio das seguintes etapas:
+
+1. Definição da quantidade de grupos.
+2. Escolha inicial dos centros dos grupos.
+3. Associação de cada pedido ao centro mais próximo.
+4. Atualização dos centros dos grupos.
+5. Repetição do processo até que os grupos se estabilizem.
+
+O agrupamento pode ajudar a empresa a organizar as entregas por região e facilitar o planejamento das rotas.
+
+### 6.4 Comparação entre os algoritmos
+
+O A* considera os pesos das conexões e utiliza uma estimativa até o destino, sendo adequado para buscar uma rota de menor custo.
+
+O BFS considera principalmente a quantidade de conexões entre os pontos. Por isso, foi utilizado como comparação.
+
+O K-Means não procura uma rota. Sua função é agrupar pedidos próximos para apoiar a organização logística.
